@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_lec910">
         <activity
+            android:name=".Image6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Image5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Image4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Image3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Image2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
