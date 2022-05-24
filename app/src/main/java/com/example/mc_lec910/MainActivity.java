@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //button4.setOnClickListener(new View.OnClickListener() {
-          //  @Override
-          //  public void onClick(View view) {
-           //     Intent intent = new Intent(MainActivity.this, Image4Activity.class);
-           //     startActivity(intent);
-          //  }
-       // });
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Image4Activity.class);
+               startActivity(intent);
+            }
+        });
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
